@@ -1,0 +1,120 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/portfolio-banner-img.png)s;
+}
+.navbar-brand img{
+    height: 60PX;
+}
+.navbar {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 20px 1px 35px 1px #DCDCDC;
+}
+.nav-item  {
+    padding-left: 30px;
+}
+.navbar  li > a  {
+    font-weight: 700;
+    font-size: 16px;
+}
+#walpp {
+    background-image: url(../img/portfolio-banner-img.png);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -80px;
+}
+.tmar1 {
+    margin-top: 100px;
+}
+.tmar2 {
+    margin-top: 80px;
+}
+.tmar3 {
+    margin-top: 10px;
+}
+.icon  {
+    font-size: 25px;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+@media (max-width: 600px) {
+    .tpad {
+        padding-top: 100px;
+    }
+    #walpp h3 {
+        font-size: 22px;
+    }
+}
+.tmar {
+    margin-top: 60px;
+}
+.bmar {
+    margin-bottom: 40px;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+#about{
+    background-color: #F5FFFA;
+    font-family: 'Open Sans', sans-serif;
+}
+#services {
+     background-color: #;
+    font-family: 'Open Sans', sans-serif;
+}
+.card {
+    border-radius: 0;
+    border-top: 1px solid white;
+    height: 400px;
+    border: 1px solid white;
+    box-shadow: 5px 10px 25px 1px #DCDCDC;
+}
+.card-body img {
+    padding: 10px;
+    height: 110px;
+    text-align: center;
+    background-color: ;
+}
+.icons {
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+    color: #40E0D0;
+}
+#blog {
+    background-color: #F5FFFA;
+    font-family: 'Open Sans', sans-serif;
+}
+.tw {
+    border-radius: 0;
+    border-top: 1px solid white;
+    border: 1px solid white;
+    box-shadow: 5px 10px 25px 1px #DCDCDC;
+}
+.tw a {
+    color: black;
+}
+.gg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-group input{
+    height: 50px;
+    border: none;
+    background-color: F5FFFA;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+}
+textarea {
+    border: none;
+    border-bottom: 2px solid #cdfffa;
+}
+.foot {
+    padding: 10px;
+    background-color: #F5FFFA;
+}
+.foot a {
+    color: black;
+}
