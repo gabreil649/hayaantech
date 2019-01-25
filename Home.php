@@ -18,12 +18,12 @@ CATCH(PDOEXCEPTION $e) {
     
     $sql = 'INSERT INTO `contact`(`firstn`, `lastn`, `email`, `phone`, `subject`, `message`, `date`) VALUES (?,?,?,?,?,?,?)';
     
-    $fn = $_POST["firstname"];
-    $ln = $_POST["lastname"];
-    $em = $_POST["email"];
-    $ph = $_POST["phone"];
-    $su = $_POST["subject"];
-    $me = $_POST["message"];
+    $fn = htmlspecialchars($_POST["firstname"]);
+    $ln = htmlspecialchars($_POST["lastname"]);
+    $em = htmlspecialchars($_POST["email"]);
+    $ph = htmlspecialchars($_POST["phone"]);
+    $su = htmlspecialchars($_POST["subject"]);
+    $me = htmlspecialchars($_POST["message"]);
     $date = date("j, n, Y");
     
     $stmt2 = $conn->Prepare($sql);
