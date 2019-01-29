@@ -3,18 +3,7 @@
 
 if(isset($_POST["firstname"])) {
     
-    TRY{
-$conn = new pdo('mysql:host=127.0.0.1;dbname=hayaante_hayan','hayaante_hayan20','Cabsiye2019#');
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
-date_default_timezone_set('Africa/Mogadishu');
-}
-
-CATCH(PDOEXCEPTION $e) {
-	//echo "<br />";
- //echo $e->getMessage();
- die();
-}
+   
     
     $sql = 'INSERT INTO `contact`(`firstn`, `lastn`, `email`, `phone`, `subject`, `message`, `date`) VALUES (?,?,?,?,?,?,?)';
     
